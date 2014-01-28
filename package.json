@@ -1,0 +1,30 @@
+{
+  "name": "jquery-retina",
+  "version": "1.0.0",
+  "description": "easy jQeury plugin for autoinsert retina image",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-closure-compiler": "~0.0.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d1mmmk/jquery-retina.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "javascript",
+    "js",
+    "coffeescript",
+    "retina"
+  ],
+  "author": "d1mmmk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d1mmmk/jquery-retina/issues"
+  },
+  "homepage": "https://github.com/d1mmmk/jquery-retina"
+}
