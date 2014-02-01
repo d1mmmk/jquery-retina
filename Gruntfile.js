@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         noreport: true, //означает что в папке js не будет создаваться txt файл с отчетом
         options: {
           compilation_level: 'SIMPLE_OPTIMIZATIONS',
-          formatting: 'pretty_print',
+          // formatting: 'pretty_print',
           warning_level: 'QUIET',
         }
       }
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         files: [
           '**/*.coffee',
           ],
-        tasks: ['coffee','closure-compiler']
+        tasks: ['coffee']
       }
     },
   });
@@ -57,5 +57,6 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['coffee', 'closure-compiler', 'connect']);
+  grunt.registerTask('prod', ['coffee', 'closure-compiler']);
 
 };
